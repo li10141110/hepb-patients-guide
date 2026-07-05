@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e3f2fd"/>
+      <stop offset="100%" style="stop-color:#bbdefb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">
+    HBV 生命周期 × 药物作用位点总图
+  </text>
+
+  <!-- Cell membrane -->
+  <rect x="50" y="60" width="900" height="80" rx="10" fill="url(#grad1)" stroke="#1976d2" stroke-width="2"/>
+  <text x="500" y="85" font-size="14" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    细胞膜 · Cell Membrane
+  </text>
+
+  <!-- Step 1: Attachment -->
+  <circle cx="120" cy="100" r="30" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="120" y="105" font-size="11" font-weight="bold" text-anchor="middle" fill="#c62828">①</text>
+  <text x="120" y="150" font-size="12" text-anchor="middle" fill="#333">吸附</text>
+  <text x="120" y="165" font-size="10" text-anchor="middle" fill="#666">Attachment</text>
+
+  <!-- Entry Inhibitor -->
+  <rect x="60" y="180" width="120" height="50" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="120" y="200" font-size="11" font-weight="bold" text-anchor="middle" fill="#7b1fa2">Entry Inhibitor</text>
+  <text x="120" y="215" font-size="9" text-anchor="middle" fill="#555">Bulevirtide ✅</text>
+
+  <!-- Arrow -->
+  <line x1="150" y1="100" x2="220" y2="100" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2: Entry -->
+  <circle cx="250" cy="100" r="30" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="250" y="105" font-size="11" font-weight="bold" text-anchor="middle" fill="#c62828">②</text>
+  <text x="250" y="150" font-size="12" text-anchor="middle" fill="#333">侵入</text>
+  <text x="250" y="165" font-size="10" text-anchor="middle" fill="#666">Entry</text>
+
+  <!-- Neutralizing Antibody -->
+  <rect x="190" y="180" width="120" height="50" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="250" y="200" font-size="11" font-weight="bold" text-anchor="middle" fill="#7b1fa2">中和抗体</text>
+  <text x="250" y="215" font-size="9" text-anchor="middle" fill="#555">VIR-3434, ALN-HBV</text>
+
+  <!-- Arrow -->
+  <line x1="280" y1="100" x2="350" y2="100" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3: Uncoating -->
+  <circle cx="380" cy="100" r="30" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="380" y="105" font-size="11" font-weight="bold" text-anchor="middle" fill="#c62828">③</text>
+  <text x="380" y="150" font-size="12" text-anchor="middle" fill="#333">脱壳</text>
+  <text x="380" y="165" font-size="10" text-anchor="middle" fill="#666">Uncoating</text>
+
+  <!-- CAM (blocks uncoating) -->
+  <rect x="320" y="180" width="120" height="50" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="380" y="200" font-size="11" font-weight="bold" text-anchor="middle" fill="#388e3c">CAM-E</text>
+  <text x="380" y="215" font-size="9" text-anchor="middle" fill="#555">ALG-000184</text>
+
+  <!-- Arrow to cytoplasm -->
+  <line x1="410" y1="100" x2="480" y2="100" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Cytoplasm -->
+  <rect x="50" y="250" width="900" height="120" rx="10" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="500" y="275" font-size="14" font-weight="bold" text-anchor="middle" fill="#f57c00">
+    细胞质 · Cytoplasm
+  </text>
+
+  <!-- Step 4: Transcription -->
+  <circle cx="150" cy="310" r="30" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="150" y="315" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">④</text>
+  <text x="150" y="360" font-size="12" text-anchor="middle" fill="#333">转录</text>
+  <text x="150" y="375" font-size="10" text-anchor="middle" fill="#666">Transcription</text>
+
+  <!-- siRNA -->
+  <rect x="90" y="390" width="120" height="50" rx="5" fill="#ffecb3" stroke="#ffa000" stroke-width="2"/>
+  <text x="150" y="410" font-size="11" font-weight="bold" text-anchor="middle" fill="#e65100">siRNA</text>
+  <text x="150" y="425" font-size="9" text-anchor="middle" fill="#555">Vir-2218</text>
+
+  <!-- ASO -->
+  <rect x="230" y="390" width="120" height="50" rx="5" fill="#ffecb3" stroke="#ffa000" stroke-width="2"/>
+  <text x="290" y="410" font-size="11" font-weight="bold" text-anchor="middle" fill="#e65100">ASO</text>
+  <text x="290" y="425" font-size="9" text-anchor="middle" fill="#555">Bepirovirsen ✅</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="310" x2="250" y2="310" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 5: Translation -->
+  <circle cx="290" cy="310" r="30" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="290" y="315" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">⑤</text>
+  <text x="290" y="360" font-size="12" text-anchor="middle" fill="#333">翻译</text>
+  <text x="290" y="375" font-size="10" text-anchor="middle" fill="#666">Translation</text>
+
+  <!-- Arrow -->
+  <line x1="320" y1="310" x2="390" y2="310" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 6: Assembly -->
+  <circle cx="430" cy="310" r="30" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="430" y="315" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">⑥</text>
+  <text x="430" y="360" font-size="12" text-anchor="middle" fill="#333">装配</text>
+  <text x="430" y="375" font-size="10" text-anchor="middle" fill="#666">Assembly</text>
+
+  <!-- CAM (blocks assembly) -->
+  <rect x="370" y="180" width="120" height="50" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="430" y="200" font-size="11" font-weight="bold" text-anchor="middle" fill="#388e3c">CAM-I</text>
+  <text x="430" y="215" font-size="9" text-anchor="middle" fill="#555">JNJ-6379, GLS4</text>
+
+  <!-- Line from CAM-I to assembly -->
+  <line x1="430" y1="230" x2="430" y2="280" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+
+  <!-- Arrow -->
+  <line x1="460" y1="310" x2="530" y2="310" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 7: Replication -->
+  <circle cx="570" cy="310" r="30" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="570" y="315" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">⑦</text>
+  <text x="570" y="360" font-size="12" text-anchor="middle" fill="#333">逆转录</text>
+  <text x="570" y="375" font-size="10" text-anchor="middle" fill="#666">Reverse Transcription</text>
+
+  <!-- NA -->
+  <rect x="510" y="390" width="120" height="50" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="570" y="410" font-size="11" font-weight="bold" text-anchor="middle" fill="#2e7d32">NA 核苷类似物</text>
+  <text x="570" y="425" font-size="9" text-anchor="middle" fill="#555">TDF, TAF, ETV ✅</text>
+
+  <!-- Arrow -->
+  <line x1="600" y1="310" x2="670" y2="310" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 8: Maturation -->
+  <circle cx="710" cy="310" r="30" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="710" y="315" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">⑧</text>
+  <text x="710" y="360" font-size="12" text-anchor="middle" fill="#333">成熟</text>
+  <text x="710" y="375" font-size="10" text-anchor="middle" fill="#666">Maturation</text>
+
+  <!-- Arrow -->
+  <line x1="740" y1="310" x2="810" y2="310" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 9: Release -->
+  <circle cx="850" cy="310" r="30" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="850" y="315" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">⑨</text>
+  <text x="850" y="360" font-size="12" text-anchor="middle" fill="#333">释放</text>
+  <text x="850" y="375" font-size="10" text-anchor="middle" fill="#666">Release</text>
+
+  <!-- Nucleus -->
+  <rect x="50" y="460" width="900" height="120" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  <text x="500" y="485" font-size="14" font-weight="bold" text-anchor="middle" fill="#3f51b5">
+    细胞核 · Nucleus (cccDNA 所在地)
+  </text>
+
+  <!-- cccDNA -->
+  <ellipse cx="200" cy="520" rx="60" ry="30" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="200" y="525" font-size="12" font-weight="bold" text-anchor="middle" fill="#c62828">cccDNA</text>
+
+  <!-- Integrated DNA -->
+  <ellipse cx="400" cy="520" rx="60" ry="30" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="400" y="525" font-size="11" font-weight="bold" text-anchor="middle" fill="#c62828">整合 DNA</text>
+
+  <!-- Gene Editing -->
+  <rect x="550" y="500" width="140" height="50" rx="5" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <text x="620" y="520" font-size="11" font-weight="bold" text-anchor="middle" fill="#c2185b">基因编辑</text>
+  <text x="620" y="535" font-size="9" text-anchor="middle" fill="#555">CRISPR, ARCUS</text>
+
+  <!-- Immunotherapy section -->
+  <rect x="50" y="600" width="900" height="80" rx="10" fill="#fce4ec" stroke="#d81b60" stroke-width="2"/>
+  <text x="500" y="625" font-size="14" font-weight="bold" text-anchor="middle" fill="#d81b60">
+    免疫调节 · 激活 T 细胞和先天免疫
+  </text>
+
+  <!-- Therapeutic Vaccine -->
+  <rect x="100" y="640" width="140" height="30" rx="5" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <text x="170" y="660" font-size="10" font-weight="bold" text-anchor="middle" fill="#c2185b">治疗性疫苗</text>
+
+  <!-- TLR Agonist -->
+  <rect x="280" y="640" width="140" height="30" rx="5" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <text x="350" y="660" font-size="10" font-weight="bold" text-anchor="middle" fill="#c2185b">TLR 激动剂</text>
+
+  <!-- Checkpoint Inhibitor -->
+  <rect x="460" y="640" width="140" height="30" rx="5" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <text x="530" y="660" font-size="10" font-weight="bold" text-anchor="middle" fill="#c2185b">检查点抑制剂</text>
+
+  <!-- Legend -->
+  <rect x="750" y="60" width="200" height="180" rx="5" fill="white" stroke="#ccc" stroke-width="1"/>
+  <text x="850" y="80" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">图例 Legend</text>
+
+  <rect x="760" y="90" width="20" height="15" fill="#ffcdd2" stroke="#c62828"/>
+  <text x="790" y="102" font-size="10" fill="#333">病毒进入步骤</text>
+
+  <rect x="760" y="110" width="20" height="15" fill="#bbdefb" stroke="#1976d2"/>
+  <text x="790" y="122" font-size="10" fill="#333">病毒复制步骤</text>
+
+  <rect x="760" y="130" width="20" height="15" fill="#e8eaf6" stroke="#3f51b5"/>
+  <text x="790" y="142" font-size="10" fill="#333">细胞核(cccDNA)</text>
+
+  <rect x="760" y="150" width="20" height="15" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="790" y="162" font-size="10" fill="#333">CAM(CAM-I/E)</text>
+
+  <rect x="760" y="170" width="20" height="15" fill="#ffecb3" stroke="#ffa000"/>
+  <text x="790" y="182" font-size="10" fill="#333">siRNA / ASO</text>
+
+  <rect x="760" y="190" width="20" height="15" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="790" y="202" font-size="10" fill="#333">NA 核苷类似物</text>
+
+  <rect x="760" y="210" width="20" height="15" fill="#f8bbd0" stroke="#c2185b"/>
+  <text x="790" y="222" font-size="10" fill="#333">免疫疗法 / 基因编辑</text>
+
+  <!-- Footer -->
+  <text x="500" y="695" font-size="10" text-anchor="middle" fill="#999">
+    乙肝治愈手册 · Jason Lee, PhD · v3.2 · 2026-07
+  </text>
+</svg>
