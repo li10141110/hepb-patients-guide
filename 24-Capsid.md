@@ -40,7 +40,7 @@ CAM 的独特价值:
 **缺点:**
 
 - **不清除现存 cccDNA** — 治标不治本
-- **不降 HBsAg** — 因为整合 DNA 还在造
+- **HBsAg 下降有限** — 28 天数据仅 0.2-0.8 log,单药不足以治愈
 - **单药效果有限** — 必须联合
 
 **所以 CAM 定位是——"补货切断者",在联合方案里是重要一环。**
@@ -92,39 +92,66 @@ CAM 的独特价值:
 
 ---
 
-## 效果:CAM 家族的"天花板"被 ALG-000184 打破了吗?
+## 效果:ALG-000184 能不能降 HBsAg?
 
-### 传统认知(Bersacapavir 时代)
+### 已发表的硬数据(PMID 41554267, Lancet Gastroenterology & Hepatology, 2026)
 
-旧一代 CAM(CAM-I)的典型效果:
-- **HBV DNA 快速下降**——比单用 NUC 更深
-- **HBV RNA 下降**——反映 cccDNA 转录被间接影响
-- **HBsAg 略降或不变**——因为整合 DNA 还在造
-- **HBcrAg 明显下降**
+这是 Phase 1 试验(NCT04536337)的 28 天单药结果,**同行评审已发表**:
 
-传统结论:**CAM 主要打"深度病毒学抑制",不是"治愈终点"。联合 siRNA/ASO 才能兼顾 HBsAg 下降。**
+**试验设计:**
+- 59 名慢性乙肝患者,5 个剂量组(10/50/100/300 mg vs 安慰剂)
+- 7 个中心(香港、中国、摩尔多瓦、新西兰、英国)
+- 中位年龄 37 岁,68% 亚洲人
 
-### 新数据:ALG-000184 Phase 1 的 96 周结果 ⭐
+**HBV DNA 压制:**
+- 所有剂量(10-300mg)均出现 **3-4 log₁₀ 下降**
+- HBeAg 阴性 23 人中:**83% 实现 HBV DNA < LLOQ(< 10 IU/mL)**
+- 100% 实现 HBV RNA < LLOQ
 
-ALG-000184-201 试验公布的 96 周单药数据,让 CAM 家族的潜力被重新评估:
+**HBsAg 下降(关键问题!):**
+- 仅在 HBeAg 阳性患者中观察到 HBsAg 下降
+- 100mg 组:1 人降 0.5 log₁₀ IU/mL
+- 300mg 组:**4/8 人降 0.2-0.8 log₁₀ IU/mL**
+- HBeAg 阴性患者:未见显著 HBsAg 下降
+- **HBcrAg:该研究未报告**
 
-**病毒学压制(第一重机制验证):**
-- HBeAg 阳性(大三阳)患者 300mg 治疗 96 周:**100% 实现 HBV DNA < LLOQ(< 10 IU/mL)**
-- HBeAg 阴性(小三阳)患者:**第 20 周 100% HBV DNA < LLOQ,第 96 周全部检测不到**
-- HBV RNA 在第 52 周全部降至定量下限以下
-- **无病毒学突破**
+**安全性:**
+- 耐受性良好,无严重药物相关不良事件
+- ALT 升高 31%(药物) vs 18%(安慰剂)
+- AST 升高 25%(药物) vs 9%(安慰剂)
+- 无停药、无死亡
 
-**抗原下降(第二重机制验证,重点!):**
-- **HBcrAg**(最直接的 cccDNA 替代指标):
-  - HBeAg 阳性患者 **100% 出现 ≥ 1 log 下降,最大降幅 3.5 log**
-  - HBeAg 阴性患者 9/11 也显著下降
-  - 这强烈提示 **cccDNA 库确实被有效抑制和削减**
-- **HBsAg**:
-  - 70% 的 HBeAg 阳性患者 **HBsAg 下降 ≥ 1 log,最大 1.5 log**
-  - 这个幅度对单药 CAM 来说是前所未有的
+### ⚠️ 关于"96 周数据"
 
-**解读:**
-ALG-000184 的数据**部分颠覆了"CAM 不降抗原"的旧结论**。双重机制让它在压 DNA/RNA 的同时,也通过阻断 cccDNA 补货,让 HBcrAg 和 HBsAg 都显著下降。当然,1.5 log 的 HBsAg 降幅还不足以单药实现功能性治愈(通常需 ≥ 2 log + 转阴),但已经足够让 CAM-E 家族成为联合方案的强力候选。
+你可能在网上看到过声称 ALG-000184 300mg 单药 96 周后 HBcrAg 降 3.5 log、HBsAg 70% 患者降 ≥ 1 log 的说法。这些数据**目前尚未在同行评审期刊发表**。Aligos 可能在会议口头报告或 press release 中提到过,但具体数字和患者分层需要等待正式发表。
+
+**已证实的 vs 待验证的:**
+
+| 指标 | 已发表(28 天) | 待发表(96 周声称) |
+|------|-------------|-----------------|
+| HBV DNA | ✅ 3-4 log 下降 | 100% < LLOQ |
+| HBV RNA | ✅ 100% < LLOQ | 第 52 周全部未检出 |
+| HBsAg | ✅ 0.2-0.8 log(部分患者) | 70% ≥ 1 log,最大 1.5 log |
+| HBcrAg | ❌ 未报告 | 100% ≥ 1 log,最大 3.5 log |
+
+### 底线:ALG-000184 能不能降 HBsAg?
+
+**能,但幅度有限。**
+
+已发表的 28 天数据显示:HBsAg 在部分 HBeAg 阳性患者中下降了 0.2-0.8 log。这个幅度:
+- ✅ 证明 CAM-E **不是完全不降 HBsAg**(旧认知被部分推翻)
+- ❌ 但离"功能性治愈"还差很远(通常需 HBsAg < 100 IU/mL 或转阴)
+- 🔑 关键看联合 siRNA/ASO 后能否叠加
+
+### B-SUPREME Phase 2 会告诉我们什么
+
+目前进行中的 **B-SUPREME 试验(NCT06963710)** 是关键:
+- **200 名患者,48 周 ALG-000184 单药 vs TDF**
+- 2025 年 7 月启动,预计 2027 年 3 月读出
+- 全球 50+ 中心,包括**多伦多、温哥华、Edmonton**
+- 主要终点:HBV DNA < LLOQ(10 IU/mL)
+
+48 周数据出来后,我们就能知道:**长期用药是否能让 HBsAg/HBcrAg 进一步下降**。
 
 ---
 
@@ -165,15 +192,15 @@ CAM 类药物的常见副作用:
 - **皮疹**——某些结构的药物较常见
 - **肝毒性**——曾导致部分候选药(如 ABI-H2158)停止开发
 
-### ALG-000184 的安全性数据(96 周)
+### ALG-000184 的安全性数据(28 天,已发表)
 
 - **无药物相关严重不良事件(SAE)**
 - **无患者因毒性停药**
-- 部分患者出现 3 级及以上 ALT/AST 升高,但**继续服药后自行缓解**
-- 独立安全审查委员会(ALT Flare Committee)评估:**这些 ALT 波动是免疫觉醒的信号,不是药物毒性**
-- 肝脏合成与排泄功能未受影响
+- ALT 升高:31%(药物) vs 18%(安慰剂),多为轻度
+- AST 升高:25%(药物) vs 9%(安慰剂)
+- 高尿酸血症:10%(药物) vs 18%(安慰剂)
 
-**这一安全性数据在 CAM 家族里是最长的单药随访记录之一。**
+耐受性良好。96 周延长治疗的安全数据尚未发表。
 
 ---
 
@@ -215,20 +242,21 @@ CAM 领域正在经历一次**重新定位**:
 
 - CAM 干扰**核衣壳装配**,切断 cccDNA 补货
 - 两大家族:**CAM-I**(异型装配) vs **CAM-E**(空壳装配)
-- ⭐ **ALG-000184 Phase 1 的 96 周数据**:100% HBV DNA 压制,HBcrAg 最大降 3.5 log,HBsAg 70% 患者降 ≥ 1 log——打破"CAM 不降抗原"的旧结论
-- 安全性良好:无 SAE,无停药,ALT 波动被认为是免疫觉醒
-- Bersacapavir(JNJ)III 期止步——CAM 单靠自己不够,但 CAM-E 带来了新希望
-- ⭐ **ALG-000184**(CAM-E)正在 II 期,UHN 多伦多参与,双重机制是核心竞争力
-- 定位:**联合疗法中的"补货切断者" + 抗原下降贡献者**
-- 现有候选:ALG-000184(数据最亮眼)、ABI-H3733、Bersacapavir(已停)
+- ⭐ **ALG-000184**(pevifoscorvir sodium)是唯一进入 Phase 2 的 CAM-E
+- **已发表数据(28 天,PMID 41554267)**:HBV DNA 降 3-4 log,部分 HBeAg 阳性患者 HBsAg 降 0.2-0.8 log
+- **96 周长期数据(声称 HBsAg 降 1.5 log,HBcrAg 降 3.5 log)尚未同行评审发表**,需等待
+- **B-SUPREME Phase 2(NCT06963710)**:200 人,48 周单药 vs TDF,2027 年读出,全球 50+ 中心含多伦多/温哥华
+- Bersacapavir(JNJ)III 期止步——CAM 单靠自己不够
+- 定位:**联合疗法中的"补货切断者"**——HBsAg 下降有限,需联合 siRNA/ASO
 
 ---
 
 **延伸阅读**
-- Yuen MF. et al. *Capsid inhibitors in HBV*. J Hepatol. 2022
-- Zoulim F. et al. *HBV cure strategies: capsid modulators*. 2023
-- Aligos Therapeutics. *ALG-000184 Phase 1 (ALG-000184-201) 96-week data*. 2025/2026
-- Aligos Therapeutics. *ALG-000184 Phase 2 trial (UHN Toronto)*. ClinicalTrials.gov
-- Lambert E. et al. *CAM-E mechanism: empty capsid assembly in HBV*. Antiviral Res. 2023
+- Aligos Therapeutics. *ALG-000184 (pevifoscorvir sodium) monotherapy in participants with chronic HBV infection: a phase 1, multicentre, randomised, dose-escalation study.* Lancet Gastroenterol Hepatol. 2026. PMID: 41554267
+- Aligos Therapeutics. *The Discovery and Preclinical Profile of ALG-000184.* PMID: 39575679
+- B-SUPREME Phase 2: ClinicalTrials.gov NCT06963710 (200 patients, 48 wk, vs TDF, global)
+- Phase 1 SAD/MAD: ClinicalTrials.gov NCT04536337 (completed, 165 patients)
+- Yuen MF. et al. *Capsid inhibitors in HBV.* J Hepatol. 2022
+- Lambert E. et al. *CAM-E mechanism: empty capsid assembly in HBV.* Antiviral Res. 2023
 
 > 下一章 → [Ch 25 · Entry Inhibitor](./25-Entry.md)
