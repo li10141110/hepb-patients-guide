@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1120" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#059669"/>
+    </marker>
+    <linearGradient id="curePath" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="1" stop-color="#a7f3d0"/>
+    </linearGradient>
+  </defs>
+
+  <text x="480" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Roadmap to Hepatitis B Cure</text>
+  <text x="480" y="66" text-anchor="middle" font-size="13" fill="#64748b">A Patient's Guide · V3.1</text>
+
+  <!-- Section 1 -->
+  <rect x="30" y="90" width="900" height="290" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="50" y="115" font-size="15" font-weight="700" fill="#991b1b">① How HBV Establishes Its Stronghold</text>
+
+  <g font-size="12" fill="#111827">
+    <rect x="60" y="155" width="150" height="60" rx="8" fill="#fff" stroke="#f87171"/>
+    <text x="135" y="180" text-anchor="middle" font-weight="700">HBV Infection</text>
+    <text x="135" y="200" text-anchor="middle" font-size="10" fill="#6b7280">Entry via NTCP receptor</text>
+
+    <rect x="240" y="155" width="150" height="60" rx="8" fill="#fff" stroke="#f87171"/>
+    <text x="315" y="180" text-anchor="middle" font-weight="700">cccDNA</text>
+    <text x="315" y="200" text-anchor="middle" font-size="10" fill="#6b7280">The viral hard drive</text>
+
+    <rect x="420" y="155" width="150" height="60" rx="8" fill="#fff" stroke="#f87171"/>
+    <text x="495" y="180" text-anchor="middle" font-weight="700">DNA Integration</text>
+    <text x="495" y="200" text-anchor="middle" font-size="10" fill="#6b7280">Embedded in host genome</text>
+
+    <rect x="600" y="155" width="150" height="60" rx="8" fill="#fff" stroke="#f87171"/>
+    <text x="675" y="180" text-anchor="middle" font-weight="700">HBsAg Factory</text>
+    <text x="675" y="200" text-anchor="middle" font-size="10" fill="#6b7280">Massive antigen output</text>
+
+    <rect x="780" y="155" width="150" height="60" rx="8" fill="#fff" stroke="#f87171"/>
+    <text x="855" y="180" text-anchor="middle" font-weight="700">Immune Exhaustion</text>
+    <text x="855" y="200" text-anchor="middle" font-size="10" fill="#6b7280">T cells lose function</text>
+  </g>
+
+  <line x1="210" y1="185" x2="240" y2="185" stroke="#dc2626" stroke-width="1.6" marker-end="url(#arrRed)"/>
+  <line x1="390" y1="185" x2="420" y2="185" stroke="#dc2626" stroke-width="1.6" marker-end="url(#arrRed)"/>
+  <line x1="570" y1="185" x2="600" y2="185" stroke="#dc2626" stroke-width="1.6" marker-end="url(#arrRed)"/>
+  <line x1="750" y1="185" x2="780" y2="185" stroke="#dc2626" stroke-width="1.6" marker-end="url(#arrRed)"/>
+
+  <rect x="60" y="245" width="870" height="110" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="80" y="270" font-size="13" font-weight="700" fill="#9a3412">Consequences</text>
+  <text x="80" y="295" font-size="11" fill="#7c2d12">• Chronic infection lasting decades</text>
+  <text x="80" y="315" font-size="11" fill="#7c2d12">• Fibrosis → cirrhosis progression</text>
+  <text x="80" y="335" font-size="11" fill="#7c2d12">• Hepatocellular carcinoma (HCC)</text>
+  <text x="500" y="295" font-size="11" fill="#7c2d12">• 254 million infected worldwide</text>
+  <text x="500" y="315" font-size="11" fill="#7c2d12">• 800k–1.1M annual deaths</text>
+  <text x="500" y="335" font-size="11" fill="#7c2d12">• ~70M chronic carriers in China alone</text>
+
+  <!-- Section 2 -->
+  <rect x="30" y="400" width="900" height="180" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="50" y="425" font-size="15" font-weight="700" fill="#1e40af">② Today's Toolkit</text>
+  <text x="50" y="442" font-size="11" fill="#1e3a8a">On market 20+ years — suppresses virus but can't clear cccDNA</text>
+
+  <g font-size="12" fill="#111827">
+    <rect x="60" y="465" width="200" height="90" rx="8" fill="#fff" stroke="#60a5fa"/>
+    <text x="160" y="490" text-anchor="middle" font-weight="700">Nucleoside Analogs</text>
+    <text x="160" y="510" text-anchor="middle" font-size="10" fill="#6b7280">ETV / TDF / TAF</text>
+    <text x="160" y="528" text-anchor="middle" font-size="10" fill="#6b7280">Block reverse transcription</text>
+    <text x="160" y="545" text-anchor="middle" font-size="10" fill="#dc2626">✗ Cannot clear cccDNA</text>
+
+    <rect x="290" y="465" width="200" height="90" rx="8" fill="#fff" stroke="#60a5fa"/>
+    <text x="390" y="490" text-anchor="middle" font-weight="700">Interferon (Peg-IFN)</text>
+    <text x="390" y="510" text-anchor="middle" font-size="10" fill="#6b7280">Immune + antiviral</text>
+    <text x="390" y="528" text-anchor="middle" font-size="10" fill="#6b7280">Some HBsAg loss achieved</text>
+    <text x="390" y="545" text-anchor="middle" font-size="10" fill="#dc2626">✗ Rough side effects, low SR</text>
+
+    <rect x="520" y="465" width="380" height="90" rx="8" fill="#fef9c3" stroke="#facc15"/>
+    <text x="710" y="490" text-anchor="middle" font-weight="700" fill="#713f12">Where we are today</text>
+    <text x="710" y="513" text-anchor="middle" font-size="11" fill="#713f12">Viral load undetectable · fibrosis / HCC risk reduced</text>
+    <text x="710" y="533" text-anchor="middle" font-size="11" fill="#713f12">But lifelong therapy for most · HBsAg loss &lt; 1%/yr</text>
+    <text x="710" y="551" text-anchor="middle" font-size="10" fill="#713f12">Suppression, not cure.</text>
+  </g>
+
+  <!-- Section 3 -->
+  <rect x="30" y="600" width="900" height="290" rx="12" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="50" y="625" font-size="15" font-weight="700" fill="#065f46">③ Tomorrow's Arsenal</text>
+  <text x="50" y="642" font-size="11" fill="#064e3b">Next-gen drugs in Phase II/III · monotherapy limited · combination is consensus</text>
+
+  <g font-size="11" fill="#111827">
+    <rect x="55" y="665" width="170" height="95" rx="8" fill="#fff" stroke="#10b981"/>
+    <text x="140" y="688" text-anchor="middle" font-weight="700">siRNA</text>
+    <text x="140" y="706" text-anchor="middle" font-size="10" fill="#6b7280">VIR-2218 / JNJ-3989</text>
+    <text x="140" y="723" text-anchor="middle" font-size="10" fill="#6b7280">RG6346</text>
+    <text x="140" y="741" text-anchor="middle" font-size="10" fill="#059669">✓ Hits both cccDNA + integrated</text>
+    <text x="140" y="756" text-anchor="middle" font-size="10" fill="#6b7280">"Shuts off the factory"</text>
+
+    <rect x="235" y="665" width="170" height="95" rx="8" fill="#fff" stroke="#10b981"/>
+    <text x="320" y="688" text-anchor="middle" font-weight="700">ASO</text>
+    <text x="320" y="706" text-anchor="middle" font-size="10" fill="#6b7280">Bepirovirsen (GSK)</text>
+    <text x="320" y="723" text-anchor="middle" font-size="10" fill="#6b7280">Phase III B-Well</text>
+    <text x="320" y="741" text-anchor="middle" font-size="10" fill="#059669">✓ Rapid HBsAg drop</text>
+    <text x="320" y="756" text-anchor="middle" font-size="10" fill="#6b7280">Antisense oligonucleotide</text>
+
+    <rect x="415" y="665" width="170" height="95" rx="8" fill="#fff" stroke="#10b981"/>
+    <text x="500" y="688" text-anchor="middle" font-weight="700">Capsid Modulators</text>
+    <text x="500" y="706" text-anchor="middle" font-size="10" fill="#6b7280">ABI-H3733</text>
+    <text x="500" y="723" text-anchor="middle" font-size="10" fill="#6b7280">JNJ series</text>
+    <text x="500" y="741" text-anchor="middle" font-size="10" fill="#059669">✓ Break assembly</text>
+    <text x="500" y="756" text-anchor="middle" font-size="10" fill="#6b7280">Disrupt nucleocapsid</text>
+
+    <rect x="595" y="665" width="170" height="95" rx="8" fill="#fff" stroke="#10b981"/>
+    <text x="680" y="688" text-anchor="middle" font-weight="700">Entry Inhibitors</text>
+    <text x="680" y="706" text-anchor="middle" font-size="10" fill="#6b7280">Bulevirtide</text>
+    <text x="680" y="723" text-anchor="middle" font-size="10" fill="#6b7280">(EU approved)</text>
+    <text x="680" y="741" text-anchor="middle" font-size="10" fill="#059669">✓ Lock the door</text>
+    <text x="680" y="756" text-anchor="middle" font-size="10" fill="#6b7280">Blocks NTCP receptor</text>
+
+    <rect x="775" y="665" width="150" height="95" rx="8" fill="#fff" stroke="#10b981"/>
+    <text x="850" y="688" text-anchor="middle" font-weight="700">Immunotherapy</text>
+    <text x="850" y="706" text-anchor="middle" font-size="10" fill="#6b7280">Therapeutic vaccines</text>
+    <text x="850" y="723" text-anchor="middle" font-size="10" fill="#6b7280">TLR agonists · PD-1</text>
+    <text x="850" y="741" text-anchor="middle" font-size="10" fill="#059669">✓ Wake up T cells</text>
+    <text x="850" y="756" text-anchor="middle" font-size="10" fill="#6b7280">Restore immune control</text>
+
+    <rect x="55" y="775" width="435" height="90" rx="8" fill="#fff" stroke="#10b981"/>
+    <text x="272" y="798" text-anchor="middle" font-weight="700">CRISPR / Gene Editing</text>
+    <text x="272" y="818" text-anchor="middle" font-size="10" fill="#6b7280">Direct cccDNA cleavage · preclinical → early Phase I</text>
+    <text x="272" y="836" text-anchor="middle" font-size="10" fill="#059669">✓ The only theoretical path to sterilizing cure</text>
+    <text x="272" y="854" text-anchor="middle" font-size="10" fill="#dc2626">✗ Delivery, off-target, safety hurdles enormous</text>
+
+    <rect x="500" y="775" width="425" height="90" rx="8" fill="#fef9c3" stroke="#facc15"/>
+    <text x="712" y="798" text-anchor="middle" font-weight="700" fill="#713f12">Combination Therapy</text>
+    <text x="712" y="820" text-anchor="middle" font-size="11" fill="#713f12">NUC + siRNA/ASO + Capsid + Immune modulator</text>
+    <text x="712" y="840" text-anchor="middle" font-size="11" fill="#713f12">"Multi-hit + immune wake-up" is the emerging consensus</text>
+    <text x="712" y="856" text-anchor="middle" font-size="10" fill="#713f12">Key Phase III readouts expected 2026-2030</text>
+  </g>
+
+  <!-- Section 4 -->
+  <rect x="30" y="910" width="900" height="185" rx="12" fill="url(#curePath)" stroke="#34d399"/>
+  <text x="480" y="940" text-anchor="middle" font-size="16" font-weight="700" fill="#064e3b">④ Two Definitions of Cure</text>
+
+  <g>
+    <rect x="80" y="960" width="380" height="115" rx="10" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+    <text x="270" y="985" text-anchor="middle" font-size="14" font-weight="700" fill="#065f46">Functional Cure</text>
+    <text x="270" y="1008" text-anchor="middle" font-size="11" fill="#334155">Sustained HBsAg loss + anti-HBs seroconversion</text>
+    <text x="270" y="1027" text-anchor="middle" font-size="11" fill="#334155">No relapse after treatment stops</text>
+    <text x="270" y="1046" text-anchor="middle" font-size="11" fill="#059669" font-weight="600">Realistic near-term goal</text>
+    <text x="270" y="1064" text-anchor="middle" font-size="10" fill="#64748b">cccDNA persists but silenced · HCC surveillance continues</text>
+
+    <rect x="500" y="960" width="380" height="115" rx="10" fill="#fff" stroke="#059669" stroke-width="1.6" stroke-dasharray="4,3"/>
+    <text x="690" y="985" text-anchor="middle" font-size="14" font-weight="700" fill="#065f46">Sterilizing Cure</text>
+    <text x="690" y="1008" text-anchor="middle" font-size="11" fill="#334155">cccDNA fully cleared + integrated DNA silenced</text>
+    <text x="690" y="1027" text-anchor="middle" font-size="11" fill="#334155">True virological eradication</text>
+    <text x="690" y="1046" text-anchor="middle" font-size="11" fill="#059669" font-weight="600">Long-term aspiration</text>
+    <text x="690" y="1064" text-anchor="middle" font-size="10" fill="#64748b">Requires CRISPR or immune clearance of infected cells</text>
+  </g>
+
+  <line x1="480" y1="380" x2="480" y2="400" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="480" y1="580" x2="480" y2="600" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="480" y1="890" x2="480" y2="910" stroke="#059669" stroke-width="2" marker-end="url(#arrGreen)"/>
+
+  <text x="480" y="1110" text-anchor="middle" font-size="10" fill="#94a3b8">Jason Lee, PhD · A Patient's Guide to Hepatitis B Cure · V3.1 · 2026 · CC BY-NC-SA</text>
+</svg>

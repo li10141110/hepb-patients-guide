@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" font-family="'PingFang SC','Helvetica Neue','Microsoft YaHei',sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <marker id="ared" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/>
+    </marker>
+    <radialGradient id="cell" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0.4"/>
+    </radialGradient>
+    <radialGradient id="nucleus" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#93c5fd" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">HBV 生命周期与药物靶点</text>
+  <text x="480" y="54" text-anchor="middle" font-size="12" fill="#64748b">HBV Life Cycle · Every Step Has a Drug</text>
+
+  <!-- 肝细胞外部 -->
+  <ellipse cx="480" cy="410" rx="420" ry="270" fill="url(#cell)" stroke="#f59e0b" stroke-width="2"/>
+  <text x="120" y="110" font-size="13" font-weight="600" fill="#92400e">肝细胞 Hepatocyte</text>
+
+  <!-- 细胞核 -->
+  <ellipse cx="480" cy="410" rx="200" ry="130" fill="url(#nucleus)" stroke="#3b82f6" stroke-width="2"/>
+  <text x="480" y="315" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af">细胞核 Nucleus</text>
+
+  <!-- 病毒 (外部) -->
+  <g>
+    <circle cx="100" cy="260" r="30" fill="#fca5a5" stroke="#991b1b" stroke-width="2"/>
+    <circle cx="100" cy="260" r="18" fill="#dc2626"/>
+    <text x="100" y="264" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">HBV</text>
+    <text x="100" y="315" text-anchor="middle" font-size="10" fill="#7f1d1d">Dane 颗粒</text>
+  </g>
+
+  <!-- ①附着 -->
+  <g>
+    <circle cx="215" cy="320" r="12" fill="#dc2626"/>
+    <text x="215" y="325" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">1</text>
+    <text x="215" y="352" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="600">附着 Attach</text>
+    <text x="215" y="367" text-anchor="middle" font-size="10" fill="#334155">NTCP 受体</text>
+    <rect x="150" y="378" width="130" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+    <text x="215" y="392" text-anchor="middle" font-size="10" font-weight="600" fill="#1e40af">💊 Bulevirtide</text>
+    <text x="215" y="404" text-anchor="middle" font-size="9" fill="#1e40af">Entry Inhibitor</text>
+  </g>
+  <path d="M 130,260 Q 175,285 205,315" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#ared)"/>
+
+  <!-- ②进入 & ③脱壳 -->
+  <g>
+    <circle cx="315" cy="380" r="12" fill="#dc2626"/>
+    <text x="315" y="385" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">2·3</text>
+    <text x="315" y="412" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="600">进入 + 脱壳</text>
+    <text x="315" y="426" text-anchor="middle" font-size="10" fill="#334155">Entry + Uncoating</text>
+  </g>
+
+  <!-- ④ cccDNA -->
+  <g>
+    <circle cx="410" cy="410" r="22" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
+    <text x="410" y="404" text-anchor="middle" font-size="10" fill="#7f1d1d" font-weight="700">ccc</text>
+    <text x="410" y="416" text-anchor="middle" font-size="10" fill="#7f1d1d" font-weight="700">DNA</text>
+    <text x="410" y="452" text-anchor="middle" font-size="10" fill="#0f172a" font-weight="600">4. 病毒硬盘</text>
+    <text x="410" y="465" text-anchor="middle" font-size="9" fill="#334155">viral reservoir</text>
+    <rect x="345" y="475" width="130" height="30" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="410" y="489" text-anchor="middle" font-size="10" font-weight="600" fill="#92400e">🔬 CRISPR</text>
+    <text x="410" y="501" text-anchor="middle" font-size="9" fill="#92400e">(临床前 preclinical)</text>
+  </g>
+
+  <!-- ⑤ 转录 + 逆转录 -->
+  <g>
+    <circle cx="560" cy="410" r="12" fill="#dc2626"/>
+    <text x="560" y="415" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">5</text>
+    <text x="560" y="380" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="600">转录+逆转录</text>
+    <text x="560" y="365" text-anchor="middle" font-size="10" fill="#334155">Transcription + RT</text>
+
+    <rect x="500" y="440" width="130" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="565" y="454" text-anchor="middle" font-size="10" font-weight="600" fill="#166534">💊 NUCs (ETV/TDF/TAF)</text>
+    <text x="565" y="466" text-anchor="middle" font-size="9" fill="#166534">阻断逆转录</text>
+
+    <rect x="500" y="478" width="130" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <text x="565" y="492" text-anchor="middle" font-size="10" font-weight="600" fill="#3730a3">💊 siRNA / ASO</text>
+    <text x="565" y="504" text-anchor="middle" font-size="9" fill="#3730a3">降解 mRNA</text>
+  </g>
+
+  <!-- ⑥ 装配 (细胞质) -->
+  <g>
+    <circle cx="720" cy="380" r="12" fill="#dc2626"/>
+    <text x="720" y="385" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">6</text>
+    <text x="720" y="352" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="600">装配 Assembly</text>
+    <rect x="655" y="398" width="130" height="30" rx="6" fill="#fce7f3" stroke="#db2777"/>
+    <text x="720" y="412" text-anchor="middle" font-size="10" font-weight="600" fill="#9f1239">💊 Capsid Modulator</text>
+    <text x="720" y="424" text-anchor="middle" font-size="9" fill="#9f1239">装错壳</text>
+  </g>
+
+  <!-- ⑦ 释放 -->
+  <g>
+    <circle cx="810" cy="300" r="12" fill="#dc2626"/>
+    <text x="810" y="305" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">7</text>
+    <text x="810" y="278" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="600">释放 Release</text>
+    <text x="810" y="330" text-anchor="middle" font-size="9" fill="#7f1d1d">新病毒 + 回流补货</text>
+  </g>
+
+  <!-- HBsAg 空壳 -->
+  <g>
+    <circle cx="870" cy="200" r="8" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+    <circle cx="890" cy="220" r="8" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+    <circle cx="855" cy="230" r="8" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="870" y="180" text-anchor="middle" font-size="10" fill="#7f1d1d" font-weight="600">HBsAg 空壳</text>
+    <text x="870" y="255" text-anchor="middle" font-size="9" fill="#7f1d1d">1万倍于病毒</text>
+  </g>
+
+  <!-- 整合 DNA -->
+  <g>
+    <rect x="480" y="440" width="80" height="14" fill="#fecaca" stroke="#991b1b" stroke-width="1.5"/>
+    <rect x="490" y="440" width="20" height="14" fill="#dc2626"/>
+    <text x="520" y="470" text-anchor="middle" font-size="10" fill="#0f172a" font-weight="600">整合 DNA</text>
+    <text x="520" y="482" text-anchor="middle" font-size="9" fill="#334155">HBsAg 主要来源(治疗后)</text>
+  </g>
+
+  <!-- 主流程箭头 -->
+  <path d="M 230,335 L 300,375" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M 330,395 L 385,405" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M 432,410 L 545,410" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M 575,400 L 705,385" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M 730,370 L 800,310" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a)"/>
+
+  <!-- 回流箭头 -->
+  <path d="M 810,285 Q 700,150 500,200 Q 430,220 415,388" fill="none" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#ared)"/>
+  <text x="600" y="145" font-size="10" font-weight="600" fill="#c2410c">↺ 回流补货 recycling</text>
+
+  <!-- 免疫疗法框 -->
+  <g>
+    <rect x="30" y="600" width="900" height="90" rx="10" fill="#faf5ff" stroke="#a855f7"/>
+    <text x="50" y="625" font-size="13" font-weight="700" fill="#6b21a8">免疫层面 · Immune Layer</text>
+    <text x="50" y="646" font-size="11" fill="#581c87">上面是"打病毒"。但要真正治愈,还要"唤醒免疫"——</text>
+    <text x="50" y="665" font-size="11" fill="#581c87">💊 治疗性疫苗(VTP-300)· PD-1 抑制剂 · TLR 激动剂 · 中和抗体(VIR-3434)</text>
+    <text x="50" y="682" font-size="10" fill="#7c3aed">"降抗原(siRNA)+ 唤醒免疫(疫苗+PD-1)"是当前最热的联合思路</text>
+  </g>
+
+  <text x="480" y="710" text-anchor="middle" font-size="9" fill="#94a3b8">Jason Lee, PhD · 乙肝治愈手册 V3.1</text>
+</svg>

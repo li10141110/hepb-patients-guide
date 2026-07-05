@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" font-family="'PingFang SC','Helvetica Neue','Microsoft YaHei',sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0891b2"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">化验单逐项解读</text>
+  <text x="480" y="54" text-anchor="middle" font-size="12" fill="#64748b">Sample Lab Report Annotated</text>
+
+  <!-- 化验单主体 -->
+  <rect x="60" y="80" width="440" height="600" rx="8" fill="#fafafa" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="60" y="80" width="440" height="40" rx="8" fill="#0f172a"/>
+  <text x="280" y="105" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">🏥 乙型肝炎检查报告</text>
+
+  <!-- 患者信息 -->
+  <text x="80" y="140" font-size="11" fill="#334155">姓名:王 XX  性别:男  年龄:45  ID:2026070501</text>
+  <line x1="80" y1="150" x2="480" y2="150" stroke="#cbd5e1"/>
+
+  <!-- 两对半 -->
+  <text x="80" y="172" font-size="12" font-weight="700" fill="#0f172a">▎两对半 (乙肝五项)</text>
+
+  <g font-size="11">
+    <text x="90" y="195" fill="#334155">HBsAg</text>
+    <text x="240" y="195" fill="#dc2626" font-weight="700">阳性 (+)</text>
+    <text x="330" y="195" fill="#dc2626" font-weight="700">1650 IU/mL</text>
+
+    <text x="90" y="215" fill="#334155">Anti-HBs</text>
+    <text x="240" y="215" fill="#64748b">阴性 (-)</text>
+    <text x="330" y="215" fill="#64748b">&lt; 10 mIU/mL</text>
+
+    <text x="90" y="235" fill="#334155">HBeAg</text>
+    <text x="240" y="235" fill="#16a34a">阴性 (-)</text>
+
+    <text x="90" y="255" fill="#334155">Anti-HBe</text>
+    <text x="240" y="255" fill="#16a34a" font-weight="700">阳性 (+)</text>
+
+    <text x="90" y="275" fill="#334155">Anti-HBc</text>
+    <text x="240" y="275" fill="#0f172a">阳性 (+)</text>
+  </g>
+
+  <line x1="80" y1="290" x2="480" y2="290" stroke="#cbd5e1"/>
+
+  <!-- 病毒定量 -->
+  <text x="80" y="310" font-size="12" font-weight="700" fill="#0f172a">▎病毒定量</text>
+
+  <g font-size="11">
+    <text x="90" y="333" fill="#334155">HBV DNA</text>
+    <text x="240" y="333" fill="#16a34a" font-weight="700">&lt; 20 IU/mL</text>
+    <text x="330" y="333" fill="#16a34a">(检测不到)</text>
+
+    <text x="90" y="353" fill="#334155">HBV RNA</text>
+    <text x="240" y="353" fill="#64748b">未查</text>
+  </g>
+
+  <line x1="80" y1="368" x2="480" y2="368" stroke="#cbd5e1"/>
+
+  <!-- 肝功能 -->
+  <text x="80" y="388" font-size="12" font-weight="700" fill="#0f172a">▎肝功能</text>
+
+  <g font-size="11">
+    <text x="90" y="411" fill="#334155">ALT</text>
+    <text x="240" y="411" fill="#16a34a">28 U/L</text>
+    <text x="330" y="411" fill="#64748b">(正常 &lt; 40)</text>
+
+    <text x="90" y="431" fill="#334155">AST</text>
+    <text x="240" y="431" fill="#16a34a">25 U/L</text>
+    <text x="330" y="431" fill="#64748b">(正常 &lt; 40)</text>
+
+    <text x="90" y="451" fill="#334155">白蛋白</text>
+    <text x="240" y="451" fill="#16a34a">45 g/L</text>
+
+    <text x="90" y="471" fill="#334155">总胆红素</text>
+    <text x="240" y="471" fill="#16a34a">14 μmol/L</text>
+  </g>
+
+  <line x1="80" y1="486" x2="480" y2="486" stroke="#cbd5e1"/>
+
+  <!-- 肿瘤标志物 -->
+  <text x="80" y="506" font-size="12" font-weight="700" fill="#0f172a">▎肿瘤标志物</text>
+
+  <g font-size="11">
+    <text x="90" y="529" fill="#334155">AFP</text>
+    <text x="240" y="529" fill="#16a34a">3.2 ng/mL</text>
+    <text x="330" y="529" fill="#64748b">(正常 &lt; 8)</text>
+  </g>
+
+  <line x1="80" y1="544" x2="480" y2="544" stroke="#cbd5e1"/>
+
+  <!-- 影像 -->
+  <text x="80" y="564" font-size="12" font-weight="700" fill="#0f172a">▎影像</text>
+
+  <g font-size="11">
+    <text x="90" y="587" fill="#334155">腹部 B 超</text>
+    <text x="240" y="587" fill="#16a34a">未见异常</text>
+
+    <text x="90" y="607" fill="#334155">FibroScan</text>
+    <text x="240" y="607" fill="#16a34a" font-weight="700">6.8 kPa</text>
+    <text x="330" y="607" fill="#64748b">(F1-F2)</text>
+  </g>
+
+  <text x="280" y="660" text-anchor="middle" font-size="10" fill="#64748b" font-style="italic">该报告为示例,数据仅用于教学</text>
+
+  <!-- 右侧批注 -->
+  <g>
+    <!-- 批注 1 -->
+    <path d="M 300,195 L 540,150" fill="none" stroke="#0891b2" stroke-width="1.5" marker-end="url(#arr)"/>
+    <rect x="540" y="130" width="380" height="60" rx="6" fill="#ecfeff" stroke="#0891b2"/>
+    <text x="555" y="150" font-size="11" font-weight="700" fill="#164e63">HBsAg 定量 1650</text>
+    <text x="555" y="167" font-size="10" fill="#164e63">中等水平。目标是降到 &lt; 100 触及"治愈悬崖",</text>
+    <text x="555" y="181" font-size="10" fill="#164e63">离功能性治愈还远。</text>
+
+    <!-- 批注 2 -->
+    <path d="M 300,265 L 540,220" fill="none" stroke="#0891b2" stroke-width="1.5" marker-end="url(#arr)"/>
+    <rect x="540" y="200" width="380" height="60" rx="6" fill="#ecfeff" stroke="#0891b2"/>
+    <text x="555" y="220" font-size="11" font-weight="700" fill="#164e63">HBeAg-,Anti-HBe+,Anti-HBc+</text>
+    <text x="555" y="237" font-size="10" fill="#164e63">典型"小三阳"组合。免疫开始压制病毒。</text>
+    <text x="555" y="251" font-size="10" fill="#164e63">HBsAg 仍阳性,可能主要来自整合 DNA。</text>
+
+    <!-- 批注 3 -->
+    <path d="M 320,333 L 540,300" fill="none" stroke="#0891b2" stroke-width="1.5" marker-end="url(#arr)"/>
+    <rect x="540" y="270" width="380" height="60" rx="6" fill="#ecfeff" stroke="#0891b2"/>
+    <text x="555" y="290" font-size="11" font-weight="700" fill="#164e63">HBV DNA 检测不到 ✅</text>
+    <text x="555" y="307" font-size="10" fill="#164e63">抗病毒治疗成功压制复制。</text>
+    <text x="555" y="321" font-size="10" fill="#164e63">但 HBsAg 未降 ≠ 治愈。</text>
+
+    <!-- 批注 4 -->
+    <path d="M 300,411 L 540,370" fill="none" stroke="#0891b2" stroke-width="1.5" marker-end="url(#arr)"/>
+    <rect x="540" y="340" width="380" height="50" rx="6" fill="#ecfeff" stroke="#0891b2"/>
+    <text x="555" y="360" font-size="11" font-weight="700" fill="#164e63">肝功能全线正常 ✅</text>
+    <text x="555" y="377" font-size="10" fill="#164e63">目前无活动性炎症。</text>
+
+    <!-- 批注 5 -->
+    <path d="M 320,607 L 540,530" fill="none" stroke="#0891b2" stroke-width="1.5" marker-end="url(#arr)"/>
+    <rect x="540" y="400" width="380" height="140" rx="6" fill="#fef9c3" stroke="#f59e0b"/>
+    <text x="555" y="420" font-size="11" font-weight="700" fill="#78350f">🎯 综合解读</text>
+    <text x="555" y="440" font-size="10" fill="#78350f">✅ 病毒被压住,肝功能正常,无肝癌迹象</text>
+    <text x="555" y="456" font-size="10" fill="#78350f">⚠️ HBsAg 仍高(1650),来源可能是整合 DNA</text>
+    <text x="555" y="472" font-size="10" fill="#78350f">→ 建议:</text>
+    <text x="555" y="487" font-size="10" fill="#78350f">   1. 继续核苷药,不停</text>
+    <text x="555" y="502" font-size="10" fill="#78350f">   2. 6 个月复查一次 HBsAg 定量</text>
+    <text x="555" y="517" font-size="10" fill="#78350f">   3. 关注 siRNA / ASO 新药试验</text>
+    <text x="555" y="532" font-size="10" fill="#78350f">   4. 12 个月复查 FibroScan + AFP</text>
+  </g>
+
+  <!-- 底部提示 -->
+  <rect x="540" y="560" width="380" height="120" rx="8" fill="#f5f3ff" stroke="#a78bfa"/>
+  <text x="555" y="580" font-size="11" font-weight="700" fill="#4c1d95">📋 拿到化验单先看三组</text>
+  <text x="555" y="600" font-size="10" fill="#4c1d95">① 两对半:你和病毒的关系</text>
+  <text x="555" y="616" font-size="10" fill="#4c1d95">② 病毒定量:活跃度 (DNA) + 库存 (HBsAg)</text>
+  <text x="555" y="632" font-size="10" fill="#4c1d95">③ 肝功能 + 影像:肝有没有被伤到</text>
+  <text x="555" y="655" font-size="10" font-weight="600" fill="#4c1d95">⭐ HBsAg 定量下降 = 迈向治愈</text>
+  <text x="555" y="672" font-size="10" fill="#4c1d95">⭐ HBV DNA 阴 + HBsAg 高 = 整合 DNA 主导</text>
+
+  <text x="480" y="705" text-anchor="middle" font-size="9" fill="#94a3b8">Jason Lee, PhD · 乙肝治愈手册 V3.1</text>
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" font-family="'PingFang SC','Helvetica Neue','Microsoft YaHei',sans-serif">
+  <defs>
+    <marker id="ar1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/>
+    </marker>
+    <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#059669"/>
+    </marker>
+    <radialGradient id="nuc" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#93c5fd" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">HBsAg 的两个来源</text>
+  <text x="480" y="54" text-anchor="middle" font-size="12" fill="#64748b">Two Sources of HBsAg · cccDNA vs Integrated DNA</text>
+
+  <!-- 左半:cccDNA -->
+  <g>
+    <rect x="30" y="90" width="440" height="240" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <text x="250" y="118" text-anchor="middle" font-size="14" font-weight="700" fill="#991b1b">来源 A · cccDNA</text>
+    <text x="250" y="135" text-anchor="middle" font-size="10" fill="#7f1d1d">病毒硬盘 · Viral Hard Drive</text>
+
+    <!-- Nucleus -->
+    <ellipse cx="250" cy="220" rx="150" ry="80" fill="url(#nuc)" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="130" y="175" font-size="10" fill="#1e40af" font-weight="600">细胞核</text>
+
+    <!-- cccDNA circles -->
+    <g>
+      <circle cx="200" cy="210" r="16" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+      <text x="200" y="214" text-anchor="middle" font-size="8" fill="#7f1d1d" font-weight="700">ccc</text>
+      <circle cx="250" cy="235" r="16" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+      <text x="250" y="239" text-anchor="middle" font-size="8" fill="#7f1d1d" font-weight="700">ccc</text>
+      <circle cx="300" cy="210" r="16" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+      <text x="300" y="214" text-anchor="middle" font-size="8" fill="#7f1d1d" font-weight="700">ccc</text>
+    </g>
+
+    <text x="250" y="285" text-anchor="middle" font-size="10" fill="#7f1d1d">每细胞 1-50 拷贝</text>
+    <text x="250" y="300" text-anchor="middle" font-size="10" fill="#7f1d1d">独立微染色体</text>
+    <text x="250" y="315" text-anchor="middle" font-size="10" fill="#7f1d1d">半衰期以"年"计</text>
+  </g>
+
+  <!-- 右半:整合 DNA -->
+  <g>
+    <rect x="490" y="90" width="440" height="240" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <text x="710" y="118" text-anchor="middle" font-size="14" font-weight="700" fill="#991b1b">来源 B · 整合 DNA</text>
+    <text x="710" y="135" text-anchor="middle" font-size="10" fill="#7f1d1d">卧底 · The Mole</text>
+
+    <ellipse cx="710" cy="220" rx="150" ry="80" fill="url(#nuc)" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="590" y="175" font-size="10" fill="#1e40af" font-weight="600">细胞核</text>
+
+    <!-- 宿主染色体 line -->
+    <line x1="580" y1="200" x2="840" y2="200" stroke="#3b82f6" stroke-width="3"/>
+    <line x1="580" y1="240" x2="840" y2="240" stroke="#3b82f6" stroke-width="3"/>
+
+    <!-- HBV integrated fragments (red patches on host chromosome) -->
+    <rect x="620" y="196" width="20" height="8" fill="#dc2626"/>
+    <rect x="670" y="196" width="15" height="8" fill="#dc2626"/>
+    <rect x="720" y="196" width="25" height="8" fill="#dc2626"/>
+    <rect x="770" y="196" width="18" height="8" fill="#dc2626"/>
+    <rect x="800" y="196" width="12" height="8" fill="#dc2626"/>
+    <rect x="600" y="236" width="18" height="8" fill="#dc2626"/>
+    <rect x="650" y="236" width="22" height="8" fill="#dc2626"/>
+    <rect x="695" y="236" width="15" height="8" fill="#dc2626"/>
+    <rect x="740" y="236" width="20" height="8" fill="#dc2626"/>
+    <rect x="790" y="236" width="16" height="8" fill="#dc2626"/>
+
+    <text x="710" y="285" text-anchor="middle" font-size="10" fill="#7f1d1d">每肝 10⁷ - 10⁹ 位点</text>
+    <text x="710" y="300" text-anchor="middle" font-size="10" fill="#7f1d1d">嵌入宿主基因组</text>
+    <text x="710" y="315" text-anchor="middle" font-size="10" fill="#7f1d1d">感染早期就发生,永久保留</text>
+  </g>
+
+  <!-- 箭头:两者→ HBsAg -->
+  <path d="M 250,335 L 400,395" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#ar1)"/>
+  <path d="M 710,335 L 560,395" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#ar1)"/>
+
+  <!-- HBsAg工厂 -->
+  <rect x="330" y="400" width="300" height="70" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="480" y="428" text-anchor="middle" font-size="14" font-weight="700" fill="#78350f">🏭 HBsAg 工厂</text>
+  <text x="480" y="448" text-anchor="middle" font-size="10" fill="#78350f">每天造出海量 HBsAg 空壳(是完整病毒的 10000 倍)</text>
+  <text x="480" y="462" text-anchor="middle" font-size="10" fill="#78350f">→ 消耗抗体 · 麻痹免疫</text>
+
+  <!-- 对比表 -->
+  <rect x="30" y="495" width="900" height="180" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="55" y="520" font-size="13" font-weight="700" fill="#0f172a">武器对照 · Which Drugs Work?</text>
+
+  <line x1="55" y1="530" x2="900" y2="530" stroke="#94a3b8"/>
+  <g font-size="11" font-weight="700" fill="#334155">
+    <text x="70" y="548">药物</text>
+    <text x="270" y="548">对 cccDNA</text>
+    <text x="450" y="548">对整合 DNA</text>
+    <text x="640" y="548">对 HBsAg 效果</text>
+    <text x="810" y="548">阶段</text>
+  </g>
+  <line x1="55" y1="555" x2="900" y2="555" stroke="#e2e8f0"/>
+
+  <g font-size="11">
+    <text x="70" y="572" fill="#334155">核苷药 (NUCs)</text>
+    <text x="270" y="572" fill="#dc2626">❌ 无效</text>
+    <text x="450" y="572" fill="#dc2626">❌ 无效</text>
+    <text x="640" y="572" fill="#f97316">几乎不降</text>
+    <text x="810" y="572" fill="#166534" font-weight="600">已上市</text>
+  </g>
+  <line x1="55" y1="580" x2="900" y2="580" stroke="#e2e8f0"/>
+
+  <g font-size="11">
+    <text x="70" y="597" fill="#334155">干扰素 (Peg-IFN)</text>
+    <text x="270" y="597" fill="#f97316">▲ 部分</text>
+    <text x="450" y="597" fill="#f97316">▲ 部分</text>
+    <text x="640" y="597" fill="#f97316">3-10% 转阴</text>
+    <text x="810" y="597" fill="#166534" font-weight="600">已上市</text>
+  </g>
+  <line x1="55" y1="605" x2="900" y2="605" stroke="#e2e8f0"/>
+
+  <g font-size="11" font-weight="700">
+    <text x="70" y="622" fill="#059669">siRNA / ASO ⭐</text>
+    <text x="270" y="622" fill="#059669">✅ 有效</text>
+    <text x="450" y="622" fill="#059669">✅ 有效</text>
+    <text x="640" y="622" fill="#059669">深度下降 2-3 log</text>
+    <text x="810" y="622" fill="#f97316">III 期</text>
+  </g>
+  <line x1="55" y1="630" x2="900" y2="630" stroke="#e2e8f0"/>
+
+  <g font-size="11">
+    <text x="70" y="647" fill="#334155">Capsid 抑制剂</text>
+    <text x="270" y="647" fill="#f97316">▲ 切补货</text>
+    <text x="450" y="647" fill="#dc2626">❌ 无效</text>
+    <text x="640" y="647" fill="#f97316">不显著降</text>
+    <text x="810" y="647" fill="#f97316">II/III 期</text>
+  </g>
+  <line x1="55" y1="655" x2="900" y2="655" stroke="#e2e8f0"/>
+
+  <g font-size="11">
+    <text x="70" y="672" fill="#334155">CRISPR</text>
+    <text x="270" y="672" fill="#059669">✅ 直接切</text>
+    <text x="450" y="672" fill="#f97316">⚠️ 风险大</text>
+    <text x="640" y="672" fill="#059669">彻底清除潜力</text>
+    <text x="810" y="672" fill="#dc2626">临床前</text>
+  </g>
+
+  <text x="480" y="705" text-anchor="middle" font-size="10" font-weight="600" fill="#4c1d95">💡 siRNA / ASO 是**唯一能"通吃两个来源"**的机制,这就是它们的革命性</text>
+  <text x="480" y="717" text-anchor="middle" font-size="9" fill="#94a3b8">Jason Lee, PhD · 乙肝治愈手册 V3.1</text>
+</svg>
